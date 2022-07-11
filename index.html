@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="score-col">
+        <h3>HOME</h3>
+        <div class="digital-screen">
+          <p id="home-score" class="digital-num">0</p>
+        </div>
+        <div class="score-btns">
+          <button id="homeAddButton1" class="add-btn" onclick="homeAdd1Btn()">+1</button>
+          <button id="homeAddButton2" class="add-btn" onclick="homeAdd2Btn()">+2</button>
+          <button id="homeAddButton3" class="add-btn" onclick="homeAdd3Btn()">+3</button>
+        </div>
+      </div>
+      <div class="score-col">
+        <h3>GUEST</h3>
+        <div class="digital-screen">
+          <p id="guest-score" class="digital-num">0</p>
+        </div>
+        <div class="score-btns">
+          <button id="guestAddButton1" class="add-btn" onclick="guestAdd1Btn()">+1</button>
+          <button id="guestAddButton2" class="add-btn" onclick="guestAdd2Btn()">+2</button>
+          <button id="guestAddButton3" class="add-btn" onclick="guestAdd3Btn()">+3</button>
+        </div>
+      </div>
+      <div class="reset-row">
+        <button class="reset-btn" onclick="resetBtn()">Start new game!</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

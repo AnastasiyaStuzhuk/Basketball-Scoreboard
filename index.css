@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@700&family=Saira+Stencil+One&display=swap');
+
+body {
+    margin: 0;
+}
+
+.container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 585px;
+
+    font-family: 'Saira Stencil One', cursive;
+
+    background-color: #1B244A;
+    -webkit-box-shadow: 5px 5px 19px 0px #A7A7A7;
+    box-shadow: 5px 5px 19px 0px #A7A7A7;
+}
+
+.score-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+h3 {
+    margin: 0;
+    margin-top: 68px;
+
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    line-height: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.digital-screen {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 120px;
+    margin-top: 21px;
+
+    background-color: #080001;
+    border-radius: 5px;
+}
+
+.digital-num {
+    margin: 0;
+
+    font-size: 80px;
+    line-height: 1;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.score-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 155px;
+    margin-top: 26px;
+    margin-bottom: 40px;
+}
+
+.add-btn {
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.add-btn:hover {
+    color: #bdcffc;
+    border-color: #bdcffc;
+}
+
+.reset-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.reset-btn {
+    width: 190px;
+    height: 60px;
+    margin-bottom: 55px;
+
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #F94F6D;
+
+    background-color: transparent;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+.reset-btn:hover {
+    color: #fa5c78;
+
+    border-color: #bdcffc;
+    background-color: #1f2a59;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.2);
+}
